@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+header {
+
+    background-color: aquamarine;
+    color: red;
+
+    img {
+        width: 100px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+
+    nav {
+        display: inline;
+    }
+
+}
+
+p {
+    font-weight: 600;
+}
+
+.green {
+    color: green;
+    background-color: lightblue;
+}
+
+#special {
+    font-size: large;
+}
+
+p.abc {
+    background-color: rgb(200, 20, 250);
+    color: white;
+    /* Dimension */
+    height: 100px;
+    width: 585px;
+    /* Font */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    /* borders */
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+
+}
+
+img {
+    width: 50px;
+
+}
+
+em {
+    color: violet;
+}
+
+main {
+    margin-top: 50px;
+
+    .box-container {
+        /* height: 250px;
+        width: 200px;
+        background-color: rgb(120, 156, 187);
+        border: 2px solid greenyellow; */
+
+        .box {
+            margin: auto;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            padding: 5px;
+            background-color: rgb(145, 22, 22);
+            background: url(images/logo.jpeg);
+            background-blend-mode: lighten;
+            background-position: center;
+            border: 2px solid;
+            border-radius: 20px;
+
+            position: fixed;
+            top: 50%;
+            /* bottom: 0; */
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            form {
+                input {
+                    text-align: center;
+                }
+            }
+
+            button {
+                border-radius: 20px;
+                margin-top: 10px;
+                padding: 5px;
+            }
+
+        }
+    }
+
+    .random {
+        width: 200px;
+        aspect-ratio: 1/1;
+        background-color: rgb(175, 115, 115);
+        border: 1px solid;
+    }
+}

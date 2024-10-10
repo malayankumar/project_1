@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    fill the form for Job applications
+    <section>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <ul>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="fname">First Name:</label></td>
+                                <td><input type="text" id="fname" placeholder="Type Your First Name"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="lname">Last Name:</label></td>
+                                <td><input type="text" id="lname" placeholder="Type Your Last Name"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phno">Phone Number:</label></td>
+                                <td><input type="text" id="phno" placeholder="Type Your Phone Number"></td>
+                            </tr>
+                            <tr>
+                            <td><label for="dob">Enter your DOB</label></td>
+                            <td><input type="date" id="dob"></td>
+                            </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan=""><input type="text" placeholder="Type ur Username"></td>
+                                <td colspan=""><input type="password" placeholder="Type ur password"></td>
+                            </tr>
+                        </tfoot>
+                        </tbody>
+                    </table>
+                </ul>
+                <hr>
+                <h4>specify your degree</h4>
+                <label for="drp">Select from the dropdown</label>
+                <select name="" id="drp">
+                    <option value="option1">B.E</option>
+                    <option value="option2">B.TECH</option>
+                    <option value="option3">BCA</option>
+                </select>
+                <hr>
+                <label for="fileupload">Upload your Resume here</label>
+                <input type="file" name="" id="fileupload">
+                <hr>
+                <label for="describtion">Tell as about your skills</label><br>
+                <textarea name="" id="describtion" cols="30" rows="10"></textarea>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Legall section</legend>
+                <label for="work-authorization">Are you legally authorized to work in this country?</label><br>
+                <input type="radio" id="work-yes" name="work-authorization" value="Yes">
+                <label for="work-yes">Yes</label><br>
+                <input type="radio" id="work-no" name="work-authorization" value="No">
+                <label for="work-no">No</label><br><br>
+
+                <label for="visa-sponsorship">Do you require visa sponsorship now or in the future?</label><br>
+                <input type="radio" id="visa-yes" name="visa-sponsorship" value="Yes">
+                <label for="visa-yes">Yes</label><br>
+                <input type="radio" id="visa-no" name="visa-sponsorship" value="No">
+                <label for="visa-no">No</label><br>
+            </fieldset>
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
