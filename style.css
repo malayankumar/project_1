@@ -163,12 +163,12 @@ body {
             .grid_container {
                 margin: auto;
                 margin-top: 10px;
-                /* display: grid;
+                display: grid;
                 grid-template-columns: auto auto;
-                gap: 10px; */
-                display: flex;
+                gap: 10px;
+                /* display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: space-between; */
 
                 .grid_item {
                     margin: auto;
@@ -211,12 +211,12 @@ body {
                     }
                 }
             }
-            /* @media screen and (max-width: 480px) {
-                .grid-container {
+            @media screen and (max-width: 480px) {
+                .grid_container {
                     
                     grid-template-columns: auto;
                 }
-            } */
+            }
         }
 
         .sign-in-form {
